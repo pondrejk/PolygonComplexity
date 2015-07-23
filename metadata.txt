@@ -1,0 +1,37 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=PolygonComplexity
+qgisMinimumVersion=2.0
+description=Calculating the complexity of polygons
+about=Plugin for QGIS 2.0 that calculates the complexity of polygon features. The complexity measure provides a quantitative description of the polygon shape. It can be used as an input for other geometric algorithms, or to find out if any algorithm depends on the geometric complexity of input polygons in terms of speed or quality of outputs. The index of complexity used in this plugin is taken from the paper by Brinkhoff, Kriegel, Schneider, and Braun. The advantage of their approach is that it considers local variations of the polygon border. The plugin also calculates a simple compactness measure that relates the area of the polygon to the length of its border.
+version=0.1
+author=Peter Ondrejka
+email=ondrejka@mail.muni.cz
+
+# End of mandatory metadata
+
+# Optional items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=
+
+homepage=https://github.com/pondrejk/PolygonComplexity
+tracker=https://github.com/pondrejk/PolygonComplexity
+repository=https://github.com/pondrejk/PolygonComplexity
+icon=logo.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
