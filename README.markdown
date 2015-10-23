@@ -58,3 +58,16 @@ References
 -----------
 
 [1]: Brinkhoff, T., Kriegel, H. P., Schneider, R., & Braun, A. (1995, December). Measuring the Complexity of Polygonal Objects. In ACM-GIS (p. 109). <http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.73.1045&rep=rep1&type=pdf> 
+
+Next steps
+------------
+
+There are several other polygon complexity measures that could be implemented to extend this plugin, including:
+
+* fractal dimension, fractal dimension estimated with the *box-counting tecnique* (as in Rützel H.: ‘Describing the Complexity of Geometric Objects by Using the Fractal Dimension’ (in German), University of Munich, 1995)
+* shape index by [Boyce & Clark 1964](http://www.jstor.org/stable/212982?seq=2#page_scan_tab_contents)
+* vertex-lag method by Bunge (Bunge, W., 1962. Theoretical Geography. First Edition. Lund Studies in Geography Series C: General and Mathematical Geography. Lund, Sweden: Gleerup.)
+* indexes mentioned in [Moser et al. 2002](http://link.springer.com/article/10.1023/A:1021513729205) (double log fractal dimension, number of shape characteristic points)
+* shape variation from [Ferson et al. 1985](http://www.jstor.org/stable/2413345?seq=1#page_scan_tab_contents)
+* method by [Lee & Sallee 1970](http://www.jstor.org/stable/213774?seq=8#page_scan_tab_contents)
+* maybe also the Fourier-based method from [Ehrlich & Weinberg 1970](http://archives.datapages.com/data/sepm/journals/v38-41/data/040/040001/0205.htm)
